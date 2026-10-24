@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ytmusic-fltk
+Comment=YouTube Music client (FLTK + libmpv)
+Exec=ytmusic-fltk
+Icon=ytmusic-fltk
+Terminal=false
+Categories=AudioVideo;Audio;Player;
