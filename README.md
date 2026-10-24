@@ -7,7 +7,7 @@ Cliente ligero de YouTube Music escrito en C++/FLTK + mpv + yt-dlp by IamJony.
 ## Dependencias
 
 - `g++`, `make`, `fltk1.3-dev`, `libcurl4-openssl-dev`
-- `mplayer-cli` (reproducción de audio)
+- `mplayer` (reproducción de audio)
 - `yt-dlp` (búsqueda y obtención de streams)
 
 ## Compilar
