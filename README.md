@@ -1,6 +1,6 @@
 # ytmusic-fltk
 
-Cliente ligero de YouTube Music escrito en C++/FLTK + mpv + yt-dlp by IamJony.
+Cliente ligero de YouTube Music escrito en C++/FLTK + mplayer + yt-dlp by IamJony.
 
 ![Captura de ytmusic-fltk](https://raw.githubusercontent.com/IamJony/ytmusic-fltk/refs/heads/main/capturas/ui.png)
 
