@@ -39,7 +39,7 @@ SIZE=$(du -k "$OUT/$APP.tcz" | cut -f1)
 
 cat > "$OUT/$APP.tcz.info" <<INFO
 Title:          $APP.tcz
-Description:    YouTube Music client for FLinux (FLTK + libmpv)
+Description:    YouTube Music client for FLinux in FLTK
 Version:        $VER
 Author:         IamJony
 Original-site:  https://github.com/IamJony
