@@ -1,5 +1,3 @@
-/* Backend simplificado: solo Música. Usa el plugin de YouTube Music.
- * Si el plugin no está, cae en yt-dlp como proceso hijo. */
 #include "backend.h"
 #include <FL/Fl.H>
 #include <cstdio>
