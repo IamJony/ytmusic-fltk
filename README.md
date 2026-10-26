@@ -20,6 +20,6 @@ make
 FLinux usa el mismo sistema de extensiones que Tiny Core Linux. Primero instala
 las dependencias desde la tienda o por terminal:
 ```bash
-tce-load -wi curl.tcz mplayer-cli.tcz ffmpeg7.tcz libwebp1.tcz gcc_libs.tcz &
+tce-load -wi curl.tcz mplayer-cli.tcz ffmpeg4.tcz libwebp1.tcz gcc_libs.tcz &
 tce-load -i ./ytmusic-fltk.tcz
 ```
