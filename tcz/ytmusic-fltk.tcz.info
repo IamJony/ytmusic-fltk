@@ -1,5 +1,5 @@
 Title:          ytmusic-fltk.tcz
-Description:    YouTube Music client for FLinux (FLTK + libmpv)
+Description:    YouTube Music client for FLinux (FLTK + mplayer)
 Version:        1.0.0
 Author:         IamJony
 Original-site:  https://github.com/IamJony
