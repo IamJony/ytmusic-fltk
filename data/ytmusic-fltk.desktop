@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=ytmusic-fltk
-Comment=YouTube Music client (FLTK + libmpv)
+Comment=YouTube Music client in FLTK
 Exec=ytmusic-fltk
 Icon=ytmusic-fltk
 Terminal=false
