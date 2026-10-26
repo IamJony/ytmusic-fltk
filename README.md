@@ -6,7 +6,7 @@ Cliente ligero "YouTube Music" escrito en C++/FLTK + mplayer + yt-dlp by IamJony
 
 ## Dependencias
 
-- `g++`, `make`, `fltk1.3-dev`, `libcurl4-openssl-dev`
+- `g++`, `make`, `fltk1.3-dev`, `libcurl4-openssl-dev`, `compiletc`, `curl-dev`
 - `mplayer` (reproducción de audio)
 - `yt-dlp` (búsqueda y obtención de streams)
 
@@ -21,8 +21,8 @@ FLinux usa el mismo sistema de extensiones que Tiny Core Linux. Primero instala
 las dependencias desde la tienda o por terminal:
 
 ```bash
-tce-load -wi curl.tcz mplayer-cli.tcz ffmpeg4.tcz libwebp1.tcz gcc_libs.tcz &
-tce-load -i ./ytmusic-fltk.tcz
+tce-load -wi curl.tcz mplayer-cli.tcz ffmpeg4.tcz libwebp1.tcz gcc_libs.tcz yt-dlp &
+tce-load -wi ./ytmusic-fltk.tcz
 ```
 ## Playlist y musica descargada
 Las playlist se guardan en $HOME/.config/ytmusic-fltk y la musica descargada se guarda en formato mp3 en tu carpeta de descarga
