@@ -10,6 +10,6 @@ tce-load -wi gcc gcc_libs
 tce-load -wi compiletc
 
 # 3. Instalar las cabeceras de desarrollo de la interfaz gráfica
-tce-load -wi fltk-1.3-dev
+tce-load -wi fltk-1.3-dev curl-dev
 
 echo "=== ¡Entorno de desarrollo y GCC listos para compilar! ==="
