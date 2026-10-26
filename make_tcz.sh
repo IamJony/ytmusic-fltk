@@ -46,7 +46,7 @@ Original-site:  https://github.com/IamJony
 Copying-policy: MIT
 Size:           ${SIZE}K
 Extension_by:   IamJony
-Tags:           music youtube fltk mpv player
+Tags:           music youtube fltk mplayer player
 Comments:       Reproductor de YouTube Music escrito en FLTK.
                 Búsqueda, playlists locales, favoritos, descargas
                 locales, cola con shuffle y repeat, temas.
