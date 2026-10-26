@@ -32,7 +32,7 @@ mksquashfs "$P" "$OUT/$APP.tcz" -all-root -noappend -no-progress -b 4096 -no-xat
 rm -rf "$P"
 
 # Dependencias
-printf '%s\n' curl.tcz mplayer-cli.tcz ffmpeg7.tcz libwebp1.tcz gcc_libs.tcz > "$OUT/$APP.tcz.dep"
+printf '%s\n' curl.tcz mplayer-cli.tcz ffmpeg4.tcz libwebp1.tcz gcc_libs.tcz > "$OUT/$APP.tcz.dep"
 
 (cd "$OUT" && md5sum $APP.tcz > $APP.tcz.md5.txt)
 SIZE=$(du -k "$OUT/$APP.tcz" | cut -f1)
