@@ -4,7 +4,7 @@ set -e
 echo "=== Instalando herramientas y dependencias de compilación ==="
 
 # 1. Instalar el compilador GCC y sus librerías base
-tce-load -wi gcc gcc_libs
+tce-load -wi gcc gcc_libs make
 
 # 2. Instalar el entorno esencial de desarrollo (make, glibc-dev, etc.)
 tce-load -wi compiletc
