@@ -21,7 +21,7 @@ FLinux usa el mismo sistema de extensiones que Tiny Core Linux. Primero instala
 las dependencias desde la tienda o por terminal y luego instala el paquete que se encuentra en la carpeta tcz:
 
 ```bash
-tce-load -wi curl.tcz mplayer-cli.tcz ffmpeg4.tcz libwebp1.tcz gcc_libs.tcz yt-dlp &
+tce-load -wi curl.tcz mplayer-cli.tcz ffmpeg4.tcz libwebp1.tcz gcc_libs.tcz libEGL yt-dlp &
 tce-load -wi ./tcz/ytmusic-fltk.tcz
 ```
 ## Playlist y musica descargada
