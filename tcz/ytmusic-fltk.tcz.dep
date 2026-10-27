@@ -1,5 +1,8 @@
 curl.tcz
+fltk-1.3
 mplayer-cli.tcz
 ffmpeg4.tcz
 libwebp1.tcz
 gcc_libs.tcz
+yt-dlp
+libEGL
